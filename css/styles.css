@@ -1,0 +1,101 @@
+
+
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header { 
+    background-image: url(../img/digital-globe.jpg);
+    background-size: cover; 
+    box-sizing: border-box;
+    text-align: center;    
+}
+
+h1, h2 {
+    color: #D1B294ff;;
+    background-color: #132842ff;
+    font-feature-settings: 'cpsp' on;
+    font-family: monospace;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 84.688%;
+    padding: 5px;
+}
+
+
+h1 {
+    font-size: 35px;
+    text-align: center;
+    background-color: #072B61ff;
+    color:#D1B294ff;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    background-color: #3895e2;
+}
+
+.separacion-de-datos {
+    padding-bottom: 10px;
+    padding-left: 5px;
+}
+
+.logo {
+    background-color: #2381da;
+    width: 120px;
+    margin: 50px;
+    border-radius: 5%;
+}
+
+.d-flex {
+    display: flex;
+    margin-left: bold;
+    padding-left: 10px;
+    padding-top: 5px;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    color: #ffffff;
+    background: #130E1Aff;
+    font-size: 20px;
+}
+
+.footer-p {
+    font-size: 20px;
+    font-weight: bold;
+} 
+
+.img-footer {
+    margin-right: 5px;
+    margin-left: 15px;
+    width: 20px;
+    height: 20px;
+    display: flex;
+}
+
+.title {
+    display: center;
+}
+
+p, li, footer {
+    font-family: monospace;
+}
+
+ul, h2 {
+    margin-top: 10px;
+
+}
+
+
